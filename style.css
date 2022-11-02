@@ -1,0 +1,94 @@
+body{
+  background-color:#ffffff;
+  line-height:normal;
+  text-align: center;
+  align-items: center;
+}
+h1{
+  color:white;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+}
+h2{
+  color:;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color: #95c18a;
+  font-size: 25px
+}
+p{
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+}
+.div{
+  background-color: white;
+  text-align: center;
+}
+
+.link-social{
+  color: #95c18a;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+a:hover {
+  color: #51694b;
+}
+.container{
+  width: 900px;
+  margin: 50px auto;
+}
+.card{
+  color: black;
+  width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+/* #second-div{
+  id=
+} */
+
+/* the below allows the webpage to be responsive no matter what size it is being viewed on */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
